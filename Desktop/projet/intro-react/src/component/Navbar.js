@@ -25,7 +25,7 @@ function Navbar() {
                     <img src={notif} alt="" className="navIcon2"/>
                 </div>
                 <div>
-                    
+
                 </div>
             </div>
         </nav>
