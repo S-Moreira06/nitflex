@@ -2,10 +2,11 @@ nav {
     display: flex;
     justify-content: space-between;
     height: 70px;
-    max-width: 1440px;
+    max-width: 100%;
     align-items: center;
-    /* margin: ; */
+    margin: 10px 40px;
 }
+
 .navBlock {
     display: flex;
 }
@@ -19,14 +20,24 @@ nav {
     list-style: none;
 }
 
+.navList li {
+    margin: 0 10px;
+}
+
 .navIcons {
     display: flex;
 }
 
 .navIcon1 {
     height: 13px;
+    margin: 0 10px;
+    filter: grayscale(100);
+
 }
+
 .navIcon2 {
     height: 21px;
     width: 24px;
+    margin: 0 10px;
+
 }

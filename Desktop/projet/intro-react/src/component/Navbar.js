@@ -5,7 +5,6 @@ import "../asset/navbar.css";
 
 function Navbar() {
     return (
-    <header>
         <nav>
             <div className="navBlock">
                 <img src={logo} alt="Logo NitFlex" className="logo"/>
@@ -19,21 +18,17 @@ function Navbar() {
                 </ul>
             </div>
             <div className="navIcons">
-
                 <div>
                     <img src={loupe} alt="" className="navIcon1"/>
                 </div>
-
                 <div>
                     <img src={notif} alt="" className="navIcon2"/>
                 </div>
-
                 <div>
-                    3
+                    
                 </div>
             </div>
         </nav>
-    </header> 
     );
 };
 
