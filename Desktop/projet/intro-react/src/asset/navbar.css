@@ -1,0 +1,32 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    max-width: 1440px;
+    align-items: center;
+    /* margin: ; */
+}
+.navBlock {
+    display: flex;
+}
+
+.logo {
+    height: 34px;
+}
+
+.navList {
+    display: flex;
+    list-style: none;
+}
+
+.navIcons {
+    display: flex;
+}
+
+.navIcon1 {
+    height: 13px;
+}
+.navIcon2 {
+    height: 21px;
+    width: 24px;
+}
