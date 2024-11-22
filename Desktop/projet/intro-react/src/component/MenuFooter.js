@@ -6,6 +6,7 @@ function MenuFooter(props) {
             <li>{props.list[2]}</li>
             <li>{props.list[3]}</li>
         </ul>
-    )
-}
+    );
+};
+
 export default MenuFooter;
