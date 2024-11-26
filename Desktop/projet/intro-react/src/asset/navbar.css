@@ -1,27 +1,15 @@
 nav {
+    margin: 10px;
     display: flex;
     justify-content: space-between;
-    height: 70px;
-    max-width: 100%;
     align-items: center;
-    margin: 10px 40px;
 }
-
-.navBlock {
-    display: flex;
-}
-
 .logo {
     height: 34px;
 }
-
 .navList {
-    display: flex;
     list-style: none;
-}
-
-.navList li {
-    margin: 0 10px;
+    display: none;
 }
 
 .navIcons {
@@ -39,3 +27,32 @@ nav {
     margin: 0 10px;
 
 }
+@media  screen and (min-width:700px) {
+    
+    .navBlock {
+        display: flex;
+    }
+    .navList {
+        display: flex;
+    }
+    .navList li {
+        margin: 0 10px;
+    }
+}
+/* @media  screen and (min-width:700px) {
+    
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        height: 70px;
+        max-width: 100%;
+        align-items: center;
+        margin: 10px 40px;
+    }
+    
+    
+    
+    
+    
+} */

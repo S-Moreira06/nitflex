@@ -1,6 +1,6 @@
 import logo from "../img/fontbolt.png";
-import loupe from "../img/loupe.png";
-import notif from "../img/notification.png";
+import loupe from "../img/icsearch.png";
+import notif from "../img/icnotification.png";
 import "../asset/navbar.css";
 
 function Navbar() {
