@@ -40,7 +40,7 @@
         height: 400px;
     }
 }
-@media  screen and (min-width:1000px) {
+@media  screen and (min-width:1025px) {
     .hero {
         height: 646px;
     }
@@ -51,6 +51,11 @@
         max-width: 40%;
     }
 }
+
+@media  screen and (min-width:1025px) {
+
+}
+
 
 /* .hero {
     background-image: url("../img/narcos.png");
